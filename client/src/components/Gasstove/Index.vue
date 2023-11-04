@@ -6,7 +6,7 @@
      
       <div v-for="gasstove in gasstoves" :key="gasstove.id" class="gasstove-item">
         <p>ชื่อรุ่น : {{ gasstove.Model }}</p>
-        <p>ระบบป้องกันความร้อน: {{ gasstove.FlameProtection ? 'มี' : 'ไม่มี' }} </p>
+        <p>ระบบป้องกันความร้อน: {{ gasstove.FlameProtection }} </p>
         <p>ราคา : {{ gasstove.Price }}</p>
         <p>
           <button @click="navigateTo('/gasstove/' + gasstove.id)">ดูข้อมูล</button>

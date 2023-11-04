@@ -10,9 +10,9 @@
         <p>วัสดุ: <input type="text" v-model="gasstove.Material"> </p>
         <p>ระบบป้องกันความร้อน:
             <select v-model="gasstove.FlameProtection">
-                <option value="true">มี</option>
-                <option value="false">ไม่มี</option>
-            </select>
+                        <option value="มี">มี</option>
+                <option value="ไม่มี">ไม่มี</option>
+                    </select>
         </p>
         
         <p>ผู้ผลิต : <input type="text" v-model="gasstove.Manufacturer"> </p>
